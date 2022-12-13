@@ -130,9 +130,10 @@ body{
 }
 
 .cartao__conteudo{
+    gap: 8px;
     padding: 16px;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: auto 1fr;
 }
 
 .cartao__destaque{
