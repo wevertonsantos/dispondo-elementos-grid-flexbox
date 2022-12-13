@@ -1,13 +1,19 @@
+/* Ícones */
+
 @font-face {
     font-family: 'icones';
     src: url(../font/icones.ttf);
 }
+
+/* Body */
 
 body{
     background-color: #1D232A;
     font-family: 'Open Sans', 'icones', sans-serif;
     color: #FFFFFF;
 }
+
+/* Cabeçalho Mobile */
 
 .cabecalho{
     display: flex;
@@ -30,4 +36,73 @@ body{
 
 .cabecalho__logo{
     width: 40px;
+}
+
+/* Menu Lateral Desktop */
+
+.menu-lateral{
+    display: flex;
+    flex-direction: column;
+    background-color: #15191C;
+    width: 75vw;
+    height: 100vh;
+
+    position: absolute;
+    left: -100vw;
+}
+
+.menu-lateral--ativo{
+    left: 0;
+}
+
+.menu-lateral__logo{
+    width: 118px;
+    align-self: center;
+    padding: 16px;
+}
+
+.menu-lateral__link{
+    height: 64px;
+    color: #95999C;
+    padding-left: 64px;
+    display: flex;
+    align-items: center;
+}
+
+.menu-lateral__link--ativo{
+    color: #FFFFFF;
+    padding-left: 56px;
+    border-left: 8px solid #FFFFFF;
+}
+
+.menu-lateral__link::before{
+    width: 24px;
+    height: 24px;
+    font-size: 24px;
+    position: absolute;
+    left: 24px;
+}
+
+.menu-lateral__link--inicio::before{
+    content: '\e902';
+}
+
+.menu-lateral__link--videos::before{
+    content: '\e90e';
+}
+
+.menu-lateral__link--picos::before{
+    content: '\e909';
+}
+
+.menu-lateral__link--integrantes::before{
+    content: '\e903';
+}
+
+.menu-lateral__link--camisas::before{
+    content: '\e900';
+}
+
+.menu-lateral__link--pinturas::before{
+    content: '\e90a';
 }
