@@ -287,6 +287,68 @@ body{
     margin-right: 8px;
 }
 
+/* Cartão recentes */
+
+.cartao--recentes{
+    display: none;
+}
+
+/* Cartão recentes desktop */
+
+@media screen and (min-width: 1440px){
+    .cartao--recentes{
+        display: grid;
+        grid-template-columns: auto auto;
+        align-items: center;
+        row-gap: 24px;
+        width: 256px;
+        height: 464px;
+        padding: 16px;
+        box-sizing: border-box;
+    }
+
+    .cartao--recentes .cartao__titulo{
+        grid-column: auto;
+        font-size: 1rem;
+    }
+
+    .cartao__link{
+        font-weight: 600;
+        color: #0480DC;
+        justify-content: flex-end;
+        font-size: .8rem;
+    }
+
+    .cartao__lista{
+        display: grid;
+        row-gap: 16px;
+        grid-column: span 2;
+    }
+
+    .cartao__item{
+        display: grid;
+        gap: 8px;
+        grid-template-columns: auto 1fr;
+    }
+    
+    .cartao__item-thumbnail{
+        width: 32px;
+        grid-row: span 2;
+    }
+    
+    .cartao__item-titulo{
+       font-size: .9rem;
+       font-weight: 700;
+       line-height: 1.2rem;
+       color: #FFFFFF;
+    }
+
+    .cartao__item-perfil{
+        font-size: .8rem;
+        color: #95999C;
+    }
+}
+
 /* Seção */
 
 .secao{
