@@ -177,6 +177,15 @@ body{
     content: '\e90a';
 }
 
+/* Menu lateral desktop */ 
+
+@media screen and (min-width: 1440px){
+    .menu-lateral{
+        position: static;
+        width: 200px;
+    }
+}
+
 /* Main principal */
 
 .principal{
@@ -188,6 +197,16 @@ body{
 .titulo-pagina{
     font-size: 1.5rem;
     font-weight: 700;
+}
+
+/* Main principal desktop */
+
+@media screen and (min-width: 1440px){
+    .principal{
+        display: grid;
+        grid-template-columns: auto 1fr auto;
+        gap: 32px;
+    }
 }
 
 /* Cartão */
