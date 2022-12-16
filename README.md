@@ -6,6 +6,6 @@
   <li>Adaptando com as telas maiores.</li>
  </ul>
 
-<p>Deploy page</p>
+<h3>Deploy page</h3>
 
 https://wevertonsantos.github.io/dispondo-elementos-grid-flexbox/
