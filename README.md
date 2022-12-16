@@ -1,6 +1,10 @@
 <h1> Dispondo elementos CSS: Grid + Flexbox <h1>
-<p>Ajustando site com CSS grid e CSS flexbox. Feito um site com grid e flexbox trabalhando em conjunto. Foi aprendido bastante coisa.
-Primeiro criamos o layout com base no figma criado para desenvolvimento do site, construído em mobile e posteriormente fomos adaptando com as telas maiores.<p>
+<ul>
+  <li>Ajustando site com CSS grid e CSS flexbox, site com grid e flexbox trabalhando em conjunto.<li>
+  <li>Criação do layout com base no figma criado para desenvolvimento do site<li>
+  <li>Construído o site para dispositívos mobile<li>
+  <li>Adaptando com as telas maiores.<li>
+ <ul>
 
 <p>Deploy page<p>
 
